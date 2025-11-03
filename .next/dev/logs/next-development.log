@@ -1,0 +1,305 @@
+[00:00:00.987] Server  LOG      ✓ Ready in 757ms
+[00:00:12.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:13.168] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1260.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:00:13.169] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:13.169] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:13.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061211154}
+[00:00:14.372] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:23.829] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061221763}
+[00:00:24.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/experience color: rgb(120, 120, 120) color: inherit {"dp":"/experience","o":"http://localhost:3000/experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061222910}
+[00:00:26.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061224487}
+[00:00:26.832] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[00:00:26.836] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[00:00:26.858] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[00:00:28.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061226953}
+[00:00:30.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061228121}
+[00:00:32.502] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061230457}
+[00:00:32.631] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:36.087] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:36.414] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:36.512] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:36.514] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:36.552] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:37.301] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:37.382] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:37.410] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:37.601] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:38.048] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:38.217] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:00:38.392] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:03:25.034] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061403015}
+[00:05:30.219] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061528189}
+[00:05:30.854] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/experience color: rgb(120, 120, 120) color: inherit {"dp":"/experience","o":"http://localhost:3000/experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061528836}
+[00:05:31.567] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061529539}
+[00:05:31.762] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[00:05:31.774] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[00:05:31.789] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[00:05:32.521] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/experience color: rgb(120, 120, 120) color: inherit {"dp":"/experience","o":"http://localhost:3000/experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061530502}
+[00:06:23.159] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061581124}
+[00:06:23.166] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:08:01.935] Server  LOG      ✓ Compiled in 59ms
+[00:08:01.962] Browser ERROR   uncaughtError: ReferenceError: Espiritu is not defined
+[00:08:09.963] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:10.024] Server  LOG      ✓ Compiled in 21ms
+[00:08:10.155] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061688048}
+[00:08:10.289] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:08:10.414] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:10.618] Browser WARN    Image with src "/professional-headshot-of-a-computer-science-studen.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:10.618] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:10.618] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:08:10.618] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061688597}
+[00:11:35.391] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061893366}
+[00:11:36.816] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/professional-headshot-of-a-computer-science-studen.jpg" "received" null
+[00:11:36.840] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762061894816}
+[00:13:17.225] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:17.225] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:17.225] Browser ERROR   uncaughtError: Error: Failed to parse src "avery-espiritu-.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:19.239] Server  ERROR   TypeError: Invalid URL
+[00:13:19.262] Server  ERROR    ⨯ Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:19.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:19.925] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:19.925] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:19.925] Browser ERROR   uncaughtError: Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:41.666] Server  ERROR   TypeError: Invalid URL
+[00:13:41.675] Server  ERROR    ⨯ Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:41.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:42.091] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:42.091] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:42.091] Browser ERROR   uncaughtError: Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:43.615] Server  ERROR   TypeError: Invalid URL
+[00:13:43.623] Server  ERROR    ⨯ Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:43.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:43.952] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:43.952] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:43.952] Browser ERROR   uncaughtError: Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:45.031] Server  ERROR   TypeError: Invalid URL
+[00:13:45.038] Server  ERROR    ⨯ Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:13:45.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:45.346] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:45.346] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:13:45.346] Browser ERROR   uncaughtError: Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:22.292] Server  ERROR   TypeError: Invalid URL
+[00:14:22.298] Server  ERROR    ⨯ Error: Failed to parse src ".jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:22.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:22.636] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:14:22.636] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:14:22.636] Browser ERROR   uncaughtError: Error: Failed to parse src ".jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:26.534] Server  ERROR   TypeError: Invalid URL
+[00:14:26.541] Server  ERROR    ⨯ Error: Failed to parse src "Random.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:26.708] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:26.833] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:14:26.833] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:14:26.833] Browser ERROR   uncaughtError: Error: Failed to parse src "Random.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:34.163] Server  ERROR   TypeError: Invalid URL
+[00:14:34.179] Server  ERROR    ⨯ Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:34.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:34.541] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:14:34.541] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[00:14:34.541] Browser ERROR   uncaughtError: Error: Failed to parse src "avery-espiritu-photo.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[00:14:58.448] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:58.581] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:58.581] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:58.581] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762062096627}
+[00:14:58.690] Browser WARN    Image with src "/avery-espiritu-photo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:25:54.029] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762062752090}
+[00:29:48.172] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762062986239}
+[00:33:54.856] Browser ERROR   ./components/hero.tsx:3:8
+Ecmascript file had an error
+  1 | import { Button } from "@/components/ui/button"
+  2 | import { Github, Link, Mail, FileText } from "lucide-react"
+> 3 | import Link from "next/link"
+    |        ^^^^
+  4 | import Image from "next/image"
+  5 |
+  6 | export function Hero() {
+
+the name `Link` is defined multiple times
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:33:55.755] Server  ERROR    ⨯ ReferenceError: Linkedin is not defined
+[00:33:55.889] Browser ERROR   uncaughtError: ReferenceError: Linkedin is not defined
+[00:33:57.482] Server  LOG      ✓ Compiled in 60ms
+[00:33:58.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:58.259] Browser WARN    Image with src "/avery-espiritu-photo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:33:58.360] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:33:58.360] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:33:58.360] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063236430}
+[00:33:58.687] Server  ERROR    ⨯ ReferenceError: Linkedin is not defined
+[00:33:58.983] Browser ERROR   uncaughtError: ReferenceError: Linkedin is not defined
+[00:34:01.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:02.020] Browser WARN    Image with src "/avery-espiritu-photo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:34:02.021] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:02.021] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:34:02.021] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063240092}
+[00:35:23.993] Server  LOG      ✓ Compiled in 603ms
+[00:36:03.178] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:36:03.275] Browser WARN    Image with src "/avery-espiritu-photo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:36:03.275] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:36:03.275] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:36:03.275] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063361346}
+[00:37:30.908] Server  LOG      ✓ Compiled in 54ms
+[00:37:30.964] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading '0')
+[00:37:38.215] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:38.374] Browser WARN    Image with src "/avery-espiritu-photo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:37:38.374] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:38.374] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:38.374] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063456447}
+[00:39:14.790] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063552863}
+[00:39:15.976] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/experience color: rgb(120, 120, 120) color: inherit {"dp":"/experience","o":"http://localhost:3000/experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063554049}
+[00:39:16.781] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063554852}
+[00:39:16.799] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[00:39:16.800] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[00:39:16.801] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[00:39:18.801] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063556874}
+[00:39:19.730] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063557742}
+[00:39:19.766] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[00:39:19.767] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[00:39:19.775] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[00:39:24.153] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063562226}
+[00:42:23.033] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063741106}
+[00:45:17.404] Server  ERROR    ⨯ ReferenceError: quote is not defined
+[00:45:17.554] Browser ERROR   uncaughtError: ReferenceError: quote is not defined
+[00:45:18.786] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:18.957] Browser WARN    Image with src "/avery-espiritu-photo.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:45:19.182] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:19.182] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:19.182] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762063917261}
+[00:45:32.646] Browser ERROR   ./components/hero.tsx:21:21
+Parsing ecmascript source code failed
+  19 |                 <TypingText 
+  20 |                   texts={[
+> 21 |                     ",
+     |                     ^^
+  22 |                     "I love building software that makes a difference.",
+  23 |                     "I'm passionate about technology and social impact."
+  24 |                   ]}
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:45:38.506] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'length')
+[00:47:05.794] Browser ERROR   ./components/hero.tsx:23:21
+Parsing ecmascript source code failed
+  21 |                     "I love solving a good puzzle.",
+  22 |                     ""
+> 23 |                     "I'm passionate about technology and social impact."
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |                   ]}
+  25 |                   typingSpeed={50}
+  26 |                   deletingSpeed={30}
+
+Expected '</', got 'string literal (I'm passionate about technology and social impact., "I'm passionate about technology and social impact.")'
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:47:07.792] Browser ERROR   ./components/hero.tsx:23:21
+Parsing ecmascript source code failed
+  21 |                     "I love solving a good puzzle.",
+  22 |                     ""
+> 23 |                     "I'm passionate about technology and social impact."
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |                   ]}
+  25 |                   typingSpeed={50}
+  26 |                   deletingSpeed={30}
+
+Expected '</', got 'string literal (I'm passionate about technology and social impact., "I'm passionate about technology and social impact.")'
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:47:12.108] Browser ERROR   ./components/hero.tsx:23:21
+Parsing ecmascript source code failed
+  21 |                     "I love solving a good puzzle.",
+  22 |                     "I want to make a"
+> 23 |                     "I'm passionate about technology and social impact."
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |                   ]}
+  25 |                   typingSpeed={50}
+  26 |                   deletingSpeed={30}
+
+Expected '</', got 'string literal (I'm passionate about technology and social impact., "I'm passionate about technology and social impact.")'
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:47:13.516] Browser ERROR   ./components/hero.tsx:23:21
+Parsing ecmascript source code failed
+  21 |                     "I love solving a good puzzle.",
+  22 |                     "I want to make a "
+> 23 |                     "I'm passionate about technology and social impact."
+     |                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  24 |                   ]}
+  25 |                   typingSpeed={50}
+  26 |                   deletingSpeed={30}
+
+Expected '</', got 'string literal (I'm passionate about technology and social impact., "I'm passionate about technology and social impact.")'
+
+Import trace:
+  Server Component:
+    ./components/hero.tsx
+    ./app/page.tsx
+[00:47:16.329] Server  LOG      ✓ Compiled in 21ms
+[08:26:17.664] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762091574827}
+[08:26:39.455] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/experience color: rgb(120, 120, 120) color: inherit {"dp":"/experience","o":"http://localhost:3000/experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762091596641}
+[08:26:40.733] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762091597919}
+[08:26:40.883] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[08:26:40.888] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[08:26:40.891] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[08:26:42.177] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762091599363}
+[08:26:43.123] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[08:26:43.130] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[08:26:43.133] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[08:26:43.134] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762091600318}
+[08:26:43.994] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762091601179}
+[11:16:07.351] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762101764226}
+[11:16:07.656] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/community-platform-interface.png" "received" null
+[11:16:07.658] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/data-analysis-dashboard.png" "received" null
+[11:16:07.659] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/algorithm-visualization-dashboard.jpg" "received" null
+[11:16:33.144] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762101790018}
+[11:16:38.263] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1762101795139}

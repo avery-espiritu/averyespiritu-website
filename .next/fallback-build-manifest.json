@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/PZ30Y-onaOapU_sinDY09/_ssgManifest.js",
+    "static/PZ30Y-onaOapU_sinDY09/_buildManifest.js"
+  ],
+  "rootMainFiles": []
+}
